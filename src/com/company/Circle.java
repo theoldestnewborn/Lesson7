@@ -14,7 +14,8 @@ public class Circle extends Figures implements Calculation {
     }
 
     @Override
-    public void perimeterCalc () {
+    public float perimeterCalc () {
        float circlePer = (float) (2*rC*3.14);
+       return circlePer;
     }
 }

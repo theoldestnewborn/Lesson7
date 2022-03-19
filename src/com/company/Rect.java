@@ -16,7 +16,8 @@ public class Rect implements Calculation{
     }
 
     @Override
-    public void perimeterCalc() {
-        int rectPer = (aR + bR) * 2;
+    public float perimeterCalc() {
+        float rectPer = (aR + bR) * 2;
+        return rectPer;
     }
 }

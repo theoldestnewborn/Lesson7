@@ -16,7 +16,8 @@ public class Tri extends Figures implements Calculation {
     }
 
     @Override
-    public void perimeterCalc () {
+    public float perimeterCalc () {
         float triPer = (float) (aT + bT + cT);
+        return triPer;
     }
 }

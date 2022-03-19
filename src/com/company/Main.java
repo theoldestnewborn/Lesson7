@@ -12,12 +12,13 @@ public class Main {
         tri1.squareCalc();
         circle1.squareCalc();
 
-        int sum = 0;
+        float sum = 0;
 
         Calculation [] ArrayFigures = {rect1,rect2,tri1,tri2,circle1};
         for (Calculation f : ArrayFigures) {
             sum += f.perimeterCalc();
         }
+        System.out.println(sum);
 
 
 
