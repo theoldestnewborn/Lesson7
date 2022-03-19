@@ -1,6 +1,6 @@
 package com.company;
 
-public class Tri implements Calculation {
+public class Tri extends Figures implements Calculation {
     int aT, bT, cT;
 
     public Tri(int aT, int bT, int cT) {

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Circle implements Calculation {
+public class Circle extends Figures implements Calculation {
     int rC;
 
     public Circle (int rC) {
@@ -14,7 +14,7 @@ public class Circle implements Calculation {
     }
 
     @Override
-    public void perimeterCalc() {
+    public void perimeterCalc () {
        float circlePer = (float) (2*rC*3.14);
     }
 }

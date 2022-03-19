@@ -1,6 +1,6 @@
 package com.company;
 
-public class Rect implements Calculation {
+public class Rect implements Calculation{
     int aR, bR;
 
     public Rect(int aR, int bR) {
@@ -17,7 +17,6 @@ public class Rect implements Calculation {
 
     @Override
     public void perimeterCalc() {
-        float rectPer = (float) ((aR + bR) * 2);
-
+        int rectPer = (aR + bR) * 2;
     }
 }
